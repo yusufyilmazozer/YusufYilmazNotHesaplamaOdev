@@ -21,13 +21,11 @@ public class NotHesaplama {
         System.out.print("Türkçe notunuzu yazınız:");
         d = input.nextFloat();
 
-        Scanner inpute = new Scanner(System.in);
         System.out.print("Tarih notunuzu yazınız:");
-        e = inpute.nextFloat();
+        e = input.nextFloat();
 
-        Scanner inputf = new Scanner(System.in);
         System.out.print("Müzik notunuzu yazınız:");
-        f = inputf.nextFloat();
+        f = input.nextFloat();
 
         float sonuc = (a+b+c+d+e+f)/6;
         System.out.println("Not ortalamanız = " + sonuc );
